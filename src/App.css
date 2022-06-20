@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #5c2c5e,
+    #b33c5d,
+    #e7723a,
+    #e0c100
+  );
+  background-repeat: no-repeat;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__title {
+  font-size: 6rem;
+}
+
+.home__button {
+  width: 25rem;
+  height: 8rem;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 30px;
+  margin-top: 10rem;
+  background-color: darkgrey;
+}
+
+.quiz {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz__container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 30rem;
+  height: 30rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.quiz__container__userName {
+  width: 90%;
+  height: 5rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  text-align: center;
+  margin: 5px;
+}
+
+.quiz__container__userNumber {
+  width: 70%;
+  height: 5rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.quiz__container__bis {
+  width: 70%;
+  height: 5rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.quiz__container__bis__count {
+  width: calc(50% - 5%);
+  align-self: center;
+}
+
+.quiz__container__bis__button {
+  width: 50%;
+  border-radius: 30px;
+  font-size: 1rem;
+  background-color: darkgrey;
+}
+
+.quiz__container__replay {
+  width: 70%;
+  height: 5rem;
+  border-radius: 30px;
+  background-color: darkgray;
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+.result {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result__congrats {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.result__replay {
+  width: 20rem;
+  height: 5rem;
+  border-radius: 30px;
+  background-color: darkgray;
+  margin: 1rem;
+  font-size: 2rem;
+}
